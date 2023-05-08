@@ -1,27 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  body {
+    @apply font-Jost text-Bcolor font-normal text-base
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.slick-dots {
+  @apply text-center m-0 p-0 mt-8 bottom-0 
+}
+.slick-dots li {
+  @apply inline-block mx-1 text-[0px] leading-none list-none w-auto h-auto
+}
+.slick-dots li button {
+  @apply text-[0px] leading-none rounded-full p-0 w-4 h-2 bg-Tcolor border-none transition-all focus:ring-0 focus:border-none
+}
+.slick-dots li.slick-active button {
+  @apply bg-Pcolor w-6
+}
+.card-items-slider.slick-slider {
+  @apply -mx-3
+}
+.card-items-slider.slick-slider .slick-slide {
+  @apply px-3
 }
