@@ -23,7 +23,7 @@ const CardBlog = ({ CardBlogData }) => {
             <span>By {PosttAdmin}</span>
           </div>
         </div>
-        <h3 className="mb-6 text-xl lg:text-2xl font-medium text-Tcolor transition-all hover:text-Pcolor"><Link href={PostUrl}>EFH IN IDYLLISCHER LAGE DIREKT AM FELD</Link></h3>
+        <h3 className="mb-6 text-xl lg:text-2xl font-medium text-Tcolor transition-all hover:text-Pcolor"><Link href={PostUrl}>{PostTitle}</Link></h3>
         <PrimaryBtn btnText="Learn More" btnUrl={PostUrl} />
       </div>
     </div>

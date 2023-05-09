@@ -1,22 +1,20 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactForm from "@/components/ContactForm";
+import ForgotPasswordForm from "@/components/ForgotPasswordForm";
 import Layout from "@/components/Layout";
-import SectionTitle from "@/components/SectionTitle";
 import React from "react";
 
-const Contact = () => {
+const ForgotPassword = () => {
   return (
     <>
-      <Breadcrumb pageTitle="Contact" />
+      <Breadcrumb pageTitle="Forgot Password" />
       <div className="py-[60px] md:py-[100px] lg:py-[120px] bg-[#FAFAFA]">
         <div className="container mx-auto px-4">
-          <SectionTitle titleText="Contact Us" />
-          <ContactForm />
+          <ForgotPasswordForm />
         </div>
       </div>
     </>
   );
 };
 
-export default Contact;
-Contact.Layout = Layout;
+export default ForgotPassword;
+ForgotPassword.Layout = Layout;

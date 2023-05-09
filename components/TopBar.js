@@ -7,7 +7,7 @@ const TopBar = () => {
         <div>
             <ul className='flex items-center gap-x-4 gap-y-2 text-sm text-white'>
                 <li className='flex items-center gap-x-2'><FaPhoneAlt /><span>+99 0123 456 0470</span></li>
-                <li className='flex items-center gap-x-2'><FaEnvelope /><span>createuiuxlab@.com</span></li>
+                <li className='flex items-center gap-x-2'><FaEnvelope /><span>createuiuxlab@gmail.com</span></li>
             </ul>
         </div>
         <div className="flex gap-x-3 items-end justify-end">

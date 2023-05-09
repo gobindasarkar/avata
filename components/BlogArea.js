@@ -11,7 +11,7 @@ const CardBlogDataApi = [
       PostTitle: "EFH IN IDYLLISCHER LAGE DIREKT AM FELD",
       PosttDate: "May 31, 2023",
       PosttAdmin: "Admin",
-      PostUrl: "/",
+      PostUrl: "/blog/single-blog",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const CardBlogDataApi = [
       PostTitle: "EFH IN IDYLLISCHER LAGE DIREKT AM FELD",
       PosttDate: "May 31, 2023",
       PosttAdmin: "Admin",
-      PostUrl: "/",
+      PostUrl: "/blog/single-blog",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const CardBlogDataApi = [
       PostTitle: "EFH IN IDYLLISCHER LAGE DIREKT AM FELD",
       PosttDate: "May 31, 2023",
       PosttAdmin: "Admin",
-      PostUrl: "/",
+      PostUrl: "/blog/single-blog",
     },
   ];
 const BlogArea = () => {

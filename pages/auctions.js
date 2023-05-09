@@ -1,6 +1,10 @@
+import AuctionsItemsList from "@/components/AuctionsItemsList";
+import TopFilters from "@/components/TopFilters";
 import Breadcrumb from "@/components/Breadcrumb";
 import Layout from "@/components/Layout";
+import Pagination from "@/components/Pagination";
 import React from "react";
+import SidebarFilters from "@/components/SidebarFilters";
 
 const Auctions = () => {
   return (
@@ -8,12 +12,16 @@ const Auctions = () => {
       <Breadcrumb pageTitle="Auctions" />
       <div className="py-[60px] md:py-[100px] lg:py-[120px] bg-[#FAFAFA]">
         <div className="container mx-auto px-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            iusto aperiam repudiandae soluta, molestiae eius commodi hic
-            perspiciatis atque enim omnis officia magnam dolores pariatur
-            placeat nobis illo aut maxime.
-          </p>
+          <div className="grid grid-cols-4 gap-6">
+            <div className="col-span-3">
+              <TopFilters />
+              <AuctionsItemsList />
+              <Pagination />
+            </div>
+            <div>
+              <SidebarFilters />
+            </div>
+          </div>
         </div>
       </div>
     </>

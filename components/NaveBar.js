@@ -84,7 +84,7 @@ const NaveBar = () => {
             <Link className="transition-all hover:text-Pcolor" href="/"><FaSearch /></Link>
           </li>
           <li>
-            <Link className="transition-all hover:text-Pcolor" href="/"><FaUserAlt /></Link>
+            <Link className="transition-all hover:text-Pcolor" href="/signup"><FaUserAlt /></Link>
           </li>
           <li className="block md:hidden leading-[0]">
             <button className="p-0 transition-all hover:text-Pcolor" onClick={handleToggle}><FaBars /></button>
